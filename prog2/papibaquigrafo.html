@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercício JavaScritp</title>
+        <link rel="stylesheet" href="paralelepipedo.css"/>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="getulionargas.js"></script>
+    </head>
+    <body>  
+        <div id = "grandona">
+            <button id="bt1" class = "inside">Diga olá para o mundo!</button>
+            <button id="bt2" class = "inside">Mude minha cor</button>
+            <button id="bt3" class = "inside">Random Color</button>
+            <button id="bt6" class = "inside">Sequencial Colors</button>
+            <button id="bt4" class = "inside">New Button</button>
+            <button id="bt5" class = "inside">Shuffle everything </button>
+        </div>
+        <p id="texto"></p>
+        <div class = animacao>
+            <div>
+                <div style="position:absolute; height: 600px; width: 100vw; left: 0; background-color: lightblue; z-index: -999;"></div>
+                <div style="position:absolute; height: 600px; width: 100vw; top: 600px; left: 0; background-color: green; z-index: -999"></div>
+                <div id="boneco" style="display: inline; position: absolute; left: 800px; top: 500px; transition: top linear 500ms; z-index: 99999;">
+                    <div style="background-color: black; border-radius: 100%; width: 60px; height: 60px;"></div>
+                    <div style="position: relative; background-color: black; width: 14px; height: 120px; top: -1px; left: 50%; transform: translatex(-50%);"></div>
+                    <svg style="position: absolute; left: 30px; bottom: 50px;" height="40" width="40">
+                        <line x1="0" y1="0" x2="40" y2="40" style="stroke:rgb(0, 0, 0); stroke-width:10" />
+                    </svg>
+                    <svg style="position: absolute; left: -10px; bottom: 50px;" height="40" width="40">
+                        <line x1="40" y1="0" x2="0" y2="40" style="stroke:rgb(0, 0, 0); stroke-width:10" />
+                    </svg>
+                    <svg style="position: absolute; left: 30px; bottom: -45px;" height="50" width="50">
+                        <line x1="0" y1="0" x2="50" y2="50" style="stroke:rgb(0, 0, 0); stroke-width:10" />
+                    </svg>
+                    <svg style="position: absolute; left: -20px; bottom: -45px;" height="50" width="50">
+                        <line x1="50" y1="0" x2="0" y2="50" style="stroke:rgb(0, 0, 0); stroke-width:10" />
+                    </svg>
+                </div>
+                <div style="position: absolute; width: 200px; height: 50px; background-color: black; border-radius: 100%; bottom: -100px; left: 730px; top: 720px;">
+            </div>
+            </div>
+        </div>
+    </body>
+    <!-- Atividade
+        A página HTML deve ter 4 botões com ações diferentes:
+        Botão 1 - Dizer Olá Mundo!
+        Botão 2 - Pedir uma cor e mudar sua cor com a cor informada.
+        Botão 3 - A cada clique a sua cor deve mudar em uma sequência pré-definida (cyan, red, purple, yellow, gray, blue)
+        Botão 4 - Deve adicionar um quinto botão na tela (não era pra fazer 4 botões? Pois agora são cinco...)
+        Botão 5 - Ao passar o mouse sobre o botão 5 ele deve ficar invisível (┛〃°　Д°）┛
+                - Ao clicar nele (mesmo que invisível, ele existe tá..., não esqueça do coitado), ele deve embaralhar a ordem dos demais botões e seus textos 
+                - (ou seja, agora cada botão mudou de posição na tela, mudou seu texto e sua ação também..., tudo aleatoriamente, Oh Lord)
+    -->
+</html>

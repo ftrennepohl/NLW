@@ -1,0 +1,59 @@
+button{
+    background-color: cyan;
+    width: 200px;
+    height: 100px;
+}
+
+.grandona{
+    display:flex;
+}
+
+#bt5{
+    display:none;
+    visibility:visible;
+    opacity: 100;
+}
+
+#bt1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#bt2{
+    position: absolute;
+    top: 0%;
+    left: 15%;
+}
+
+#bt6{
+    position: absolute;
+    top: 0%;
+    left: 30%;
+}
+#bt3{
+    position: absolute;
+    top: 0%;
+    left: 45%;
+}
+#bt4{
+    position: absolute;
+    top: 0%;
+    left: 60%;
+}
+
+#bt5{
+    position: absolute;
+    top: 0%;
+    left: 75%;
+}
+
+@keyframes pula {
+    0%{top: 550px;}
+    100%{top: 100px;}
+    0%{top: 530px;}
+}
+
+div#boneco {
+    animation: pula 1s ease 1s infinite alternate forwards;
+}   
