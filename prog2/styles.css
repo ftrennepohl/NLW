@@ -1,0 +1,14 @@
+html, body {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+@keyframes pula {
+    0%{top: 550px;}
+    100%{top: 0;}
+    0%{top: 530px;}
+}
+
+div#boneco {
+    animation: pula 1s ease 1s infinite alternate forwards;
+}   
